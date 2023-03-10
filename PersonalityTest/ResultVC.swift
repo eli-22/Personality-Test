@@ -14,19 +14,6 @@ class ResultVC: UIViewController {
     @IBOutlet weak var resultAnswerLabel: UILabel!
     @IBOutlet weak var resultDescription: UILabel!
     
-    /*
-    init?(coder: NSCoder, responses: [Answer]){
-        self.responses = responses
-        super.init(coder: coder)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-     
-     // ! after [Answer] fixed this
-     */
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true
